@@ -44,7 +44,7 @@ library
   ghc-options: -Wall
 
   build-depends: base       >= 3.0.3.1 && < 5
-               , containers >= 0.4
+               , containers >= 0.4  && <7
                , fingertree >= 0.0.1
                , text       >= 0.11
 
